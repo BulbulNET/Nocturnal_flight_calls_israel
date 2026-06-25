@@ -1,0 +1,13 @@
+location,Season,geography,topography,Active Nights,precipitation,altitude,latitude
+Hatzeva,fall,North,Valley,76,3.749806452,-166,30.818349
+Hatzeva,spring,North,Valley,85,3.749806452,-166,30.818349
+Mitzpe_ramon,fall,North,Mountain,67,3.805032258,758,30.660835
+Mitzpe_ramon,spring,North,Mountain,85,3.805032258,758,30.660835
+Shita,fall,Center,Valley,44,3.728,237,30.14119
+Shita,spring,Center,Valley,54,3.728,237,30.14119
+Neot_smadar,fall,Center,Mountain,43,3.760129032,417,30.054879
+Neot_smadar,spring,Center,Mountain,83,3.760129032,417,30.054879
+Timna,fall,South,Valley,58,3.720387097,123,29.803654
+Timna,spring,South,Valley,69,3.720387097,123,29.803654
+Har_Yoash,fall,South,Mountain,57,3.711483871,733,29.582982
+Har_Yoash,spring,South,Mountain,84,3.711483871,733,29.582982
