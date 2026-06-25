@@ -16,8 +16,7 @@ The custom classifier was trained on recordings of 34 common migratory bird spec
 * Scripts for reproducing analyses and figures from the manuscript
 * Processed datasets used in the statistical analyses
 
-Because of the size of the model, it should be downloaded from:
-https://doi.org/XXXXX
+model can be downloaded here - https://github.com/BulbulNET/Nocturnal_flight_calls_israel/releases/tag/v1.0
 
 ## Repository structure
 
