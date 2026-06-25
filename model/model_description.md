@@ -6,8 +6,7 @@ This repository contains a custom BirdNET classifier developed for the detection
 
 The model was created by retraining the BirdNET framework using a region-specific dataset compiled from public sound libraries and validated field recordings. The classifier was designed to support automated monitoring of nocturnal migration in the Afro-Palearctic flyway.
 
-Because of the size of the model, it can be downloaded from:
-https://doi.org/XXXXX
+model can be downloaded - https://github.com/BulbulNET/Nocturnal_flight_calls_israel/releases/tag/v1.0
 
 ## Base Model
 
