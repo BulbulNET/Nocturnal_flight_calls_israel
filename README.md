@@ -60,15 +60,37 @@ python scripts/run_costum_model.py \
 
 The output will include species predictions and confidence scores for each audio segment.
 
-## Reproducing manuscript analyses
-
-Processed detection tables used in the manuscript are provided in the data directory.
-
-To reproduce the statistical analyses:
+for further species inspection and a saving option:
 
 ```bash
-Rscript scripts/glmm_analysis.R
+python scripts/species_list_and_save_files.py
 ```
+
+## Using the model in BirdNET Analyzer (GUI)
+
+The custom classifier can be used directly through the BirdNET Analyzer graphical user interface (GUI) without requiring any programming experience.
+
+To run the model:
+
+1. Download the custom classifier files from 'release'
+2. Open BirdNET Analyzer (version 2.4 or later).
+3. Select **Batch Analysis**.
+4. Under **Species Selection**, choose **Custom Classifier**.
+5. Load the classifier provided in this repository.
+6. Select the audio files to analyze.
+7. Run the analysis.
+
+BirdNET will generate detection tables containing species predictions and confidence scores for each detected call.
+
+This workflow allows users to apply the classifier to their own recordings without modifying any code.
+
+## Reproducing manuscript analyses
+
+Processed detection tables used in the manuscript are provided in the data directory 'all_detections_dataframe.pkl'.
+
+To reproduce figures and statistical analyses use :
+
+/scripts/visualization_for_data.py
 
 ## Data availability
 
