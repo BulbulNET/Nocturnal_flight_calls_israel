@@ -16,10 +16,13 @@ The custom classifier was trained on recordings of 34 common migratory bird spec
 * Scripts for reproducing analyses and figures from the manuscript
 * Processed datasets used in the statistical analyses
 
+Because of the size of the model, it should be downloaded from:
+https://doi.org/XXXXX
+
 ## Repository structure
 
 ```text
-model/      Trained BirdNET model, labels and parameters
+model/      Trained BirdNET model dacription, labels and parameters (the model can be downloaded from https://doi.org/XXXXX)
 data/       Processed datasets and example recordings
 scripts/    Python and R scripts
 results/    Example outputs
@@ -72,7 +75,7 @@ Rscript scripts/glmm_analysis.R
 
 This repository contains:
 
-* Trained BirdNET model
+* Trained BirdNET model description (the model can be downloaded from https://doi.org/XXXXX)
 * Example recordings
 * Processed detection data
 * Metadata
