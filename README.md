@@ -104,6 +104,12 @@ This repository contains:
 
 Raw recordings collected during the study are not included in this repository.
 
+## Future Data Releases
+
+We are currently preparing a curated collection of expert-validated nocturnal flight call recordings obtained during this study for public release. The dataset will include tagged recordings of migratory species detected in Israel and is intended to support future development, training, and validation of automated bioacoustic classifiers.
+
+Upon completion, these recordings will be deposited in a publicly accessible repository and made freely available to the research community.
+
 ## Citation
 
 If you use this repository, please cite:
