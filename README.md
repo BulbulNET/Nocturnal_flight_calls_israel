@@ -22,7 +22,7 @@ https://doi.org/XXXXX
 ## Repository structure
 
 ```text
-model/      Trained BirdNET model dacription, labels and parameters (the model can be downloaded from https://doi.org/XXXXX)
+model/      Trained BirdNET model and model dacription, labels and parameters (https://github.com/BulbulNET/Nocturnal_flight_calls_israel/releases/tag/v1.0)
 data/       Processed datasets and example recordings
 scripts/    Python and R scripts
 results/    Example outputs
@@ -75,7 +75,7 @@ Rscript scripts/glmm_analysis.R
 
 This repository contains:
 
-* Trained BirdNET model description (the model can be downloaded from https://doi.org/XXXXX)
+* Trained BirdNET model (https://github.com/BulbulNET/Nocturnal_flight_calls_israel/releases/tag/v1.0)
 * Example recordings
 * Processed detection data
 * Metadata
