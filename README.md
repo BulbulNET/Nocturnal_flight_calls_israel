@@ -84,6 +84,26 @@ BirdNET will generate detection tables containing species predictions and confid
 
 This workflow allows users to apply the classifier to their own recordings without modifying any code.
 
+## Evaluating model performance on a test set
+
+In addition to running the custom classifier on new recordings, the repository includes scripts for evaluating model performance on a labeled test set.
+
+To run the custom model on the test set:
+
+```bash
+python scripts/run_custom_model.py --input data/test_set/ --model model/
+```
+
+This produces a prediction table with the model output for each test recording.
+
+To calculate model performance metrics:
+
+```bash
+python scripts/calculate_model_performance.py --predictions results/test_set_predictions.csv --labels data/test_set_labels.csv
+```
+
+The performance script calculates standard classification metrics, including precision and recall, based on the agreement between model predictions and the known labels of the test set.
+
 ## Reproducing manuscript analyses
 
 Processed detection tables used in the manuscript are provided in the data directory 'all_detections_dataframe.pkl'.
