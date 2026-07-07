@@ -88,7 +88,7 @@ This workflow allows users to apply the classifier to their own recordings witho
 
 In addition to running the custom classifier on new recordings, the repository includes scripts for evaluating model performance on a labeled validated set or on the test set.
 
-To run the custom model on the va;idated set:
+To run the custom model on the validated set:
 
 ```bash
 python scripts/run_custom_model.py --input data/validated_set/ --model model/
