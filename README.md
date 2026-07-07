@@ -94,12 +94,19 @@ To run the custom model on the validated set:
 python scripts/run_custom_model.py --input data/validated_set/ --model model/
 ```
 
-This produces a prediction table with the model output for each recording.
+This produces a prediction table with the model output for each recording as listed above.
 
-To calculate model performance metrics:
+To calculate model performance metrics of the test set as in the paper:
 
 ```bash
-python scripts/calculate_model_performance.py --predictions results/test_set_predictions.csv --labels data/test_set_labels.csv
+python scripts/calculate_model_performance.py
+--output/"custom_NFC_model_on_testset.csv"
+```
+To calculate model performance metrics of the validated set (files from our field recordings):
+
+```bash
+python scripts/calculate_model_performance.py
+--output/"custom_NFC_model_on_validated_set.csv"
 ```
 
 The performance script calculates standard classification metrics, including precision and recall, based on the agreement between model predictions and the known labels of the test set.
