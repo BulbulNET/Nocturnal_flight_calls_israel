@@ -84,17 +84,17 @@ BirdNET will generate detection tables containing species predictions and confid
 
 This workflow allows users to apply the classifier to their own recordings without modifying any code.
 
-## Evaluating model performance on a test set
+## Evaluating model performance on the test set or validated set
 
-In addition to running the custom classifier on new recordings, the repository includes scripts for evaluating model performance on a labeled test set.
+In addition to running the custom classifier on new recordings, the repository includes scripts for evaluating model performance on a labeled validated set or on the test set.
 
-To run the custom model on the test set:
+To run the custom model on the va;idated set:
 
 ```bash
-python scripts/run_custom_model.py --input data/test_set/ --model model/
+python scripts/run_custom_model.py --input data/validated_set/ --model model/
 ```
 
-This produces a prediction table with the model output for each test recording.
+This produces a prediction table with the model output for each recording.
 
 To calculate model performance metrics:
 
@@ -121,14 +121,6 @@ This repository contains:
 * Processed detection data
 * Metadata
 * Analysis scripts
-
-Raw recordings collected during the study are not included in this repository.
-
-## Future Data Releases
-
-We are currently preparing a curated collection of expert-validated nocturnal flight call recordings obtained during this study for public release. The dataset will include tagged recordings of migratory species detected in Israel and is intended to support future development, training, and validation of automated bioacoustic classifiers.
-
-Upon completion, these recordings will be deposited in a publicly accessible repository and made freely available to the research community.
 
 ## Citation
 
